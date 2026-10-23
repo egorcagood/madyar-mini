@@ -1,0 +1,14 @@
+private/
+include/private_config.h
+include/resource_manifest.h
+data/font.bin
+ASSET_MANIFEST.json
+.pio/
+build/
+__pycache__/
+*.pyc
+*.elf
+*.map
+*.bin
+!data/m.rle
+.venv/

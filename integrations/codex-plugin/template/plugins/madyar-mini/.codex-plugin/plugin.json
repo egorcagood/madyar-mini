@@ -1,0 +1,7 @@
+{
+  "name": "madyar-mini",
+  "version": "1.0.1",
+  "description": "Metadata-only local status bridge for the Madyar Mini display.",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.pyc
+var/
+firmware/private/
+firmware/include/private_config.h
+integrations/codex-plugin/generated/
+
+# Local credentials, builds and captures — never upload
+.pio/
+*.bin
+*.elf
+*.map
+*.log
+*.zip
+*.pem
+*.key
+.env
+.env.*
+config.local.*
+firmware/ASSET_MANIFEST.json
+firmware/include/resource_manifest.h
+firmware/include/private_config.h
+firmware/private/
+firmware/data/font.bin
+
+# Personal production notes and agent instructions are not public release material
+**/VIDEO_*.md
+**/SKILL.md
+**/STYLE.md
+**/AGENTS.md
+**/SOUL.md
+private-video/
+private-notes/
+*.bundle

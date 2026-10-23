@@ -1,0 +1,10 @@
+{
+  "name": "madyar-mini-local",
+  "interface": {"displayName": "Мадяр Мини — локальная интеграция"},
+  "plugins": [{
+    "name": "madyar-mini",
+    "source": {"source": "local", "path": "./plugins/madyar-mini"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

@@ -1,0 +1,90 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3,
+            "additionalContextLimit": 500
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "__PROJECT_ROOT__/.venv/Scripts/python.exe -I \"${PLUGIN_ROOT}/scripts/hook.py\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"& '__PROJECT_ROOT__/.venv/Scripts/python.exe' -I (Join-Path ([Environment]::GetEnvironmentVariable('PLUGIN_ROOT')) 'scripts/hook.py')\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Metadata-only local display status. No permission decisions."
+}
